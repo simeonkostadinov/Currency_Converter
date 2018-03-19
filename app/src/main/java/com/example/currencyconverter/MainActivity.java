@@ -236,7 +236,9 @@ public class MainActivity extends AppCompatActivity {
                             int pos2 = newAmountSpinner.getSelectedItemPosition();
                             amountSpinner.setSelection(pos2);
                             newAmountSpinner.setSelection(pos1);
-                            amount.setText(newAmount.getText());
+                            if(!newAmount.getText().toString().equalsIgnoreCase("converting...")){
+                                amount.setText(newAmount.getText());
+                            }
                             convert.performClick();
                         }
                     });
