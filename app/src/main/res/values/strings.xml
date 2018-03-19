@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="input_text">Enter amount...</string>
+    <string name="currencies">currencies</string>
+    <string name="to_currency">Exchange to</string>
+    <string name="convert">Convert</string>
+    <string name="enter_amount">Enter amount...</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="for_date">Exchage rates valid for:</string>
+    <string name="title_activity_all_currencies">AllCurrencies</string>
+    <string name="switch_button">switch</string>
+    <string name="show_rates">Show rates</string>
+    <string name="currentCurrencyRate">Current exchange rates for:</string>
+    <string name="one">1</string>
+    <string name="ok">Ok</string>
+    <string name="exit">Exit</string>
+</resources>
